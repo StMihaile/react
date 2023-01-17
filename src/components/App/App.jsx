@@ -13,7 +13,7 @@ import SeachInfo from '../SeachInfo/SeachInfo.jsx';
 
 function App() {
   const [cards, setCards] = useState(data);
-  const [searchQuery, setSearchQuery] = useState('');
+  const [searchQuery, setSearchQuery] = useState('');  
   
 
   const handleInput = (e) => {
